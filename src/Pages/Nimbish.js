@@ -5,7 +5,7 @@ import logo from "../img/steelcraftlogo.png";
 
 const Nimbish = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <section className="home-section overflow-hidden position-relative">
         <div
           className="circle1-big bg3 rounded-circle position-absolute"
@@ -460,7 +460,7 @@ const Nimbish = () => {
           </div>
         </div>
       </section>
-      <section className="footer-section">
+      <section className="footer-section text-start">
         <div className="py-5 container">
           <div className="row">
             <div className="col-md-3 text-white">

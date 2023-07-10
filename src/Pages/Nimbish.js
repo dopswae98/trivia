@@ -305,7 +305,7 @@ const Nimbish = () => {
           </div>
         </div>
       </section>
-      <section className="reviews-section bg4">
+      <section className="reviews-section bg4 py-5">
         <h3 className="fw-bold text1 container">What People Say About Us</h3>
         <div>
           <div className="row">

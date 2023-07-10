@@ -83,7 +83,7 @@ const Nimbish = () => {
                     Login
                   </a>
                   <button
-                    className="connect-wallet btn btn-outline-info bg1 rounded-pill text-color fw-bold px-4"
+                    className="connect-wallet btn bg1 rounded-pill text-color fw-bold px-4"
                     style={{ fontSize: 12 }}
                   >
                     Sign Up

@@ -35,10 +35,19 @@
     color: rgb(254, 84, 5) !important;
 }
 .rev1 {
-    background-color: rgb(132, 0, 97) !important;
+    background-color: rgb(120, 30, 132) !important;
 }
 .rev2 {
-    background-color: rgb(21, 196, 149) !important;
+    background-color: rgb(20, 195, 138) !important;
+}
+.rev3 {
+    background-color: rgb(14, 24, 95) !important;
+}
+.rev4 {
+    background-color: rgb(31, 121, 150) !important;
+}
+.rev5 {
+    background-color: rgb(111, 69, 31) !important;
 }
 
 .btn2:hover {
@@ -51,6 +60,9 @@
     color: rgb(0, 0, 34) !important;
 }
 
+.bg1 {
+    background-color: rgb(25, 238, 233) !important;
+}
 .bg1 {
     background-color: rgb(254, 84, 5) !important;
 }

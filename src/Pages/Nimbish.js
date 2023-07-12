@@ -35,12 +35,12 @@ const Nimbish = () => {
 
               <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul
-                  class="navbar-nav me-auto mb-2 mb-md-0 me-5"
+                  class="navbar-nav fw-bold text-dark me-auto mb-2 mb-md-0 me-5"
                   style={{ fontSize: 13 }}
                 >
                   <li class="nav-item">
                     <a
-                      class="nav-link text2 active"
+                      class="nav-link text2 active fw-bold"
                       aria-current="page"
                       href="/#"
                     >
@@ -48,13 +48,13 @@ const Nimbish = () => {
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/#">
+                    <a class="nav-link text-dark fw-bold" href="/#">
                       ABOUT US
                     </a>
                   </li>
                   <li class="nav-item">
                     <a
-                      class="nav-link"
+                      class="nav-link text-dark"
                       href="/#"
                       tabindex="-1"
                       aria-disabled="true"
@@ -64,7 +64,7 @@ const Nimbish = () => {
                   </li>
                   <li class="nav-item">
                     <a
-                      class="nav-link"
+                      class="nav-link text-dark"
                       href="/#"
                       tabindex="-1"
                       aria-disabled="true"
@@ -83,7 +83,7 @@ const Nimbish = () => {
                     Login
                   </a>
                   <button
-                    className="connect-wallet btn bg1 rounded-pill text-color fw-bold px-4"
+                    className="connect-wallet btn btn-outline-info bg1 rounded-pill text-white fw-bold px-4"
                     style={{ fontSize: 12 }}
                   >
                     Sign Up
@@ -365,6 +365,87 @@ const Nimbish = () => {
             </div>
             <div className="col-md-4 py-2 px-5  text-white">
               <div className="d-flex ms-md-5 shadow rev1 rounded pt-2 px-2">
+                <div
+                  className="bg-info rounded-circle"
+                  style={{ height: 30, width: 30 }}
+                >
+                  <img
+                    className="rounded-circle"
+                    src={logo}
+                    alt=""
+                    style={{ height: 40, width: 40 }}
+                  />
+                </div>
+                <div className="ms-2">
+                  <p style={{ lineHeight: 0.9 }}>
+                    Sarah leah <br />{" "}
+                    <span className="" style={{ fontSize: 11 }}>
+                      @Sarahleah
+                    </span>
+                  </p>
+                  <p style={{ fontSize: 12 }}>
+                    Numblish is one of the best places to safety get reward for
+                    your knowledge.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 py-2 px-5  text-white">
+              <div className="d-flex ms-md-5 shadow rev3 rounded pt-2 px-2">
+                <div
+                  className="bg-info rounded-circle"
+                  style={{ height: 30, width: 30 }}
+                >
+                  <img
+                    className="rounded-circle"
+                    src={logo}
+                    alt=""
+                    style={{ height: 40, width: 40 }}
+                  />
+                </div>
+                <div className="ms-2">
+                  <p style={{ lineHeight: 0.9 }}>
+                    Sarah leah <br />{" "}
+                    <span className="" style={{ fontSize: 11 }}>
+                      @Sarahleah
+                    </span>
+                  </p>
+                  <p style={{ fontSize: 12 }}>
+                    Numblish is one of the best places to safety get reward for
+                    your knowledge.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 py-2 px-5  text-white">
+              <div className="d-flex ms-md-5 shadow rev4 rounded pt-2 px-2">
+                <div
+                  className="bg-info rounded-circle"
+                  style={{ height: 30, width: 30 }}
+                >
+                  <img
+                    className="rounded-circle"
+                    src={logo}
+                    alt=""
+                    style={{ height: 40, width: 40 }}
+                  />
+                </div>
+                <div className="ms-2">
+                  <p style={{ lineHeight: 0.9 }}>
+                    Sarah leah <br />{" "}
+                    <span className="" style={{ fontSize: 11 }}>
+                      @Sarahleah
+                    </span>
+                  </p>
+                  <p style={{ fontSize: 12 }}>
+                    Numblish is one of the best places to safety get reward for
+                    your knowledge.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 py-2 px-5  text-white">
+              <div className="d-flex ms-md-5 shadow rev5 rounded pt-2 px-2">
                 <div
                   className="bg-info rounded-circle"
                   style={{ height: 30, width: 30 }}

@@ -1,0 +1,48 @@
+
+.messagebox{
+    padding-top: 20px;
+}
+
+.received-message{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.received-message::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid whitesmoke;
+    border-radius: 5px;
+}
+.sent-message{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.sent-message::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.float-left{
+    width: fit-content;
+    float: right;
+}
